@@ -10,8 +10,9 @@ export class UserService {
 
   constructor(
     private http: Http,
-    private authenticationService: AuthenticationService
-  ) { }
+    private authenticationService: AuthenticationService) {
+
+    }
 
   getUsers(): Observable<User[]> {
     // add authorization header with jwt token
