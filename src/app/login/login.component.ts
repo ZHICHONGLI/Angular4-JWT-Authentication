@@ -6,7 +6,7 @@ import { AuthenticationService } from "../services/authentication.service";
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
-  moduleId: module.id
+  // moduleId: module.id
 })
 export class LoginComponent implements OnInit {
   model: any = {};
